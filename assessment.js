@@ -24,7 +24,7 @@ function helloWorld() {
              lambdaSchool(8); // returns 8
 */
 
-function lambdaSchool() {
+function lambdaSchool(num) {
     if (num % 3 === 0 && num % 5 === 0) {
         return 'Lambda School';
     } else if (num % 3 === 0) {
